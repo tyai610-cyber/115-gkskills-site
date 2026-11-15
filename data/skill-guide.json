@@ -1,0 +1,480 @@
+{
+  "source": "115.11.12 Excel：北科附工、協辦單位、報到；115.11.12 導覽圖 RAR",
+  "skills": [
+    {
+      "id": "01",
+      "name": "應用設計",
+      "venue": "北科附工",
+      "theory": "動力機械科館\n 303教室",
+      "practical": "動力機械科館\n 301、302專業教室",
+      "meeting": "動力機械科館\n 502專業教室",
+      "registrationPlace": "動力機械科館502專業教室",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "02",
+      "name": "冷凍空調",
+      "venue": "北科附工",
+      "theory": "電機科館1樓\n 視聽教室",
+      "practical": "電機科館 第42工場\n 電子科館  第9、10工場",
+      "meeting": "電機科館1樓\n 視聽教室",
+      "registrationPlace": "電機科館1樓大廳視聽教室",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "03",
+      "name": "電腦輔助機械製圖",
+      "venue": "北科附工",
+      "theory": "技教中心2樓\n 2A教室",
+      "practical": "技教中心2樓\n 2A教室",
+      "meeting": "(領隊會議)技教中心1B教室\n(賽後檢討)技教中心2A教室",
+      "registrationPlace": "技教中心1樓 1B教室",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "04",
+      "name": "機械製圖",
+      "venue": "北科附工",
+      "theory": "技教中心3樓3B教室",
+      "practical": "技教中心3樓3B教室",
+      "meeting": "技教中心3樓3C教室",
+      "registrationPlace": "技教中心3樓 3C教室",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "05",
+      "name": "電腦軟體設計",
+      "venue": "北科附工",
+      "theory": "電子科館第7工場",
+      "practical": "電子科館第7工場",
+      "meeting": "電子科館第8工場",
+      "registrationPlace": "電子科館4樓第8工場",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "06",
+      "name": "電腦修護",
+      "venue": "北科附工",
+      "theory": "樂群堂",
+      "practical": "樂群堂",
+      "meeting": "樂群堂",
+      "registrationPlace": "樂群堂",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "07",
+      "name": "化驗",
+      "venue": "北科附工",
+      "theory": "行政大樓\n (動力一)",
+      "practical": "化工科館2樓\n (2間實驗室)",
+      "meeting": "化工科館1樓-\n 單元操作教室",
+      "registrationPlace": "化工科館1樓單元操作教室",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "08",
+      "name": "工業電子",
+      "venue": "北科附工",
+      "theory": "行政大樓\n (機械一甲)",
+      "practical": "電子科館第3、4工場",
+      "meeting": "電子科館第2工場",
+      "registrationPlace": "電子科館3樓第5工場",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "09",
+      "name": "數位電子",
+      "venue": "北科附工",
+      "theory": "行政大樓\n (電子一乙)",
+      "practical": "電子科館第1工場",
+      "meeting": "電子科館第2工場",
+      "registrationPlace": "電子科館1樓大廳",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "10",
+      "name": "工業配線",
+      "venue": "北科附工",
+      "theory": "行政大樓\n (電機一甲、電機一乙)",
+      "practical": "電機科館第34、35工場",
+      "meeting": "電機科館第32工場",
+      "registrationPlace": "電機科館3樓第32工場",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "11",
+      "name": "室內配線",
+      "venue": "北科附工",
+      "theory": "行政大樓\n (電子一甲、汽車一甲)",
+      "practical": "敬業館2樓",
+      "meeting": "汽車科館4樓\n 視聽教室2",
+      "registrationPlace": "動力機械科館前面直升機旁空地",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "12",
+      "name": "汽車修護",
+      "venue": "北科附工",
+      "theory": "汽車科館2樓\n 視聽教室",
+      "practical": "敬業樓前走道(搭棚架)\n汽車科館1樓各工場、3樓各工場",
+      "meeting": "汽車科館2樓\n 視聽教室",
+      "registrationPlace": "動力機械科館汽車科2樓視聽教室",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "13",
+      "name": "鉗工",
+      "venue": "北科附工",
+      "theory": "行政大樓\n (汽車一乙、化工一甲)",
+      "practical": "機械科館鉗工工場",
+      "meeting": "第2會議室",
+      "registrationPlace": "機械科館1樓綜合加工場前",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "14",
+      "name": "車床",
+      "venue": "北科附工",
+      "theory": "行政大樓\n (化工一乙、模具一)",
+      "practical": "機械科館車床工場",
+      "meeting": "圖書館B01",
+      "registrationPlace": "機械科館1樓綜合加工場前",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "11:00–13:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "15",
+      "name": "建築製圖",
+      "venue": "萬能科大",
+      "theory": "萬能科大覺民館\n F410教室",
+      "practical": "萬能科大覺民館\n F410教室",
+      "meeting": "萬能科大覺民館\n F401教室",
+      "registrationPlace": "萬能科大\n覺民館F209教室",
+      "source": "01 畫圖用115.11.12.xlsx｜協辦單位",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "vanung"
+    },
+    {
+      "id": "16",
+      "name": "板金",
+      "venue": "三重商工",
+      "theory": "板金大樓\n 2樓專業教室2B",
+      "practical": "板金大樓\n 1、3樓工場",
+      "meeting": "板金大樓\n 2樓專業教室2A",
+      "registrationPlace": "三重商工\n板金大樓3樓專業教室",
+      "source": "01 畫圖用115.11.12.xlsx｜協辦單位",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "sanchong"
+    },
+    {
+      "id": "17",
+      "name": "建築",
+      "venue": "北科附工",
+      "theory": "園藝科館標本教室",
+      "practical": "砌磚競賽場地-美學教室及教室外實習場、大蔭棚。\n 製圖教室-標本教室。",
+      "meeting": "崇學樓105教室",
+      "registrationPlace": "崇學樓105教室",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "18",
+      "name": "室內空間設計",
+      "venue": "萬能科大",
+      "theory": "萬能科大\n 覺民館F203教室",
+      "practical": "萬能科大\n 覺民館F407教室",
+      "meeting": "萬能科大\n 覺民館F305教室",
+      "registrationPlace": "萬能科大\n覺民館F204教室",
+      "source": "01 畫圖用115.11.12.xlsx｜協辦單位",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "vanung"
+    },
+    {
+      "id": "19",
+      "name": "鑄造",
+      "venue": "南港高工",
+      "theory": "鑄造科工場\n 2樓專業教室",
+      "practical": "鑄造科工場\n 1樓、2樓、6樓",
+      "meeting": "鑄造科工場\n 2樓專業教室",
+      "registrationPlace": "南港高工\n鑄造科工場",
+      "source": "01 畫圖用115.11.12.xlsx｜協辦單位",
+      "registrationTime": "09:00–09:30",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nangang"
+    },
+    {
+      "id": "20",
+      "name": "模具",
+      "venue": "南港高工",
+      "theory": "模具科工場\n 2樓專業教室(一)",
+      "practical": "模具科工場\n 1樓",
+      "meeting": "模具科工場\n 2樓專業教室(一)",
+      "registrationPlace": "南港高工\n模具科工場",
+      "source": "01 畫圖用115.11.12.xlsx｜協辦單位",
+      "registrationTime": "12:00–13:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nangang"
+    },
+    {
+      "id": "21",
+      "name": "圖文傳播",
+      "venue": "北科附工",
+      "theory": "畜保科館1樓解剖教室",
+      "practical": "畜保科館2樓視聽教室(電腦圖文)\n 畜保科館1樓加工教室(網版印刷)\n 畜保科館1樓解剖教室(組頁成品、印刷實務判別)",
+      "meeting": "畜保科館1樓解剖教室",
+      "registrationPlace": "畜保科館解剖教室",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "22",
+      "name": "測量",
+      "venue": "北科附工",
+      "theory": "行政大樓\n (體育一甲、體育一乙)",
+      "practical": "運動場、實習農場及活動中心旁風雨球場",
+      "meeting": "農場經營科館2樓視聽教室",
+      "registrationPlace": "農經科館2樓視聽教室",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "23",
+      "name": "機電整合",
+      "venue": "北科附工",
+      "theory": "行政大樓\n (生機一甲、生機一乙)",
+      "practical": "生機科館\n 電子實習場2樓",
+      "meeting": "生機科館\n 專題製作教室1樓",
+      "registrationPlace": "生機科館2樓教室",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "12:00–13:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "24",
+      "name": "飛機修護",
+      "venue": "新興高中",
+      "theory": "航機大樓3樓專業教室",
+      "practical": "航機大樓1樓、3樓",
+      "meeting": "航機大樓2樓國中技藝班教室",
+      "registrationPlace": "新興高中\n航機大樓3樓實作講解教室",
+      "source": "01 畫圖用115.11.12.xlsx｜協辦單位",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "xinxing"
+    },
+    {
+      "id": "25",
+      "name": "家具木工",
+      "venue": "桃竹苗分署",
+      "theory": "訓練五館101\n 木工實習工廠",
+      "practical": "訓練五館101\n 木工實習工廠",
+      "meeting": "訓練五館303\n 製圖實習教室",
+      "registrationPlace": "桃竹苗分署\n訓練五館1樓",
+      "source": "01 畫圖用115.11.12.xlsx｜協辦單位",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "division"
+    },
+    {
+      "id": "26",
+      "name": "汽車噴漆",
+      "venue": "泰山高中",
+      "theory": "汽車科2樓\n 階梯教室",
+      "practical": "汽車科4樓\n 噴漆及機車場",
+      "meeting": "汽車科3樓\n 視聽教室",
+      "registrationPlace": "泰山高中\n汽車大樓3樓視聽教室",
+      "source": "01 畫圖用115.11.12.xlsx｜協辦單位",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "taishan"
+    },
+    {
+      "id": "27",
+      "name": "機器人",
+      "venue": "萬能科大",
+      "theory": "萬能科技大學活動中心",
+      "practical": "萬能科技大學活動中心",
+      "meeting": "萬能科技大學活動中心",
+      "registrationPlace": "萬能科大\n活動中心1樓",
+      "source": "01 畫圖用115.11.12.xlsx｜協辦單位",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "vanung"
+    },
+    {
+      "id": "28",
+      "name": "配管",
+      "venue": "北科附工",
+      "theory": "模具科館2樓\n 多媒體教室",
+      "practical": "模具科館1樓\n 實習工廠",
+      "meeting": "模具科館2樓\n 多媒體教室",
+      "registrationPlace": "模具科館1樓",
+      "source": "01 畫圖用115.11.12.xlsx｜北科附工",
+      "registrationTime": "13:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "nkh"
+    },
+    {
+      "id": "29",
+      "name": "機器手臂技術",
+      "venue": "桃竹苗分署",
+      "theory": "行政大樓\n 401會議室",
+      "practical": "活動中心",
+      "meeting": "領隊會議：活動中心\n賽後檢討會：行政大樓 401會議室",
+      "registrationPlace": "桃竹苗分署\n活動中心",
+      "source": "01 畫圖用115.11.12.xlsx｜協辦單位",
+      "registrationTime": "12:00–14:00",
+      "registrationDate": "115年11月24日(星期二)",
+      "venueId": "division"
+    }
+  ],
+  "venues": [
+    {
+      "id": "nkh",
+      "name": "北科附工",
+      "count": 19,
+      "meetingHint": "樂群堂第三會議室",
+      "maps": [
+        {
+          "name": "服務定位",
+          "src": "assets/maps/nkh-service.webp"
+        },
+        {
+          "name": "報到／領隊會議",
+          "src": "assets/maps/nkh-registration.webp"
+        },
+        {
+          "name": "學科試場",
+          "src": "assets/maps/nkh-theory.webp"
+        },
+        {
+          "name": "術科試場",
+          "src": "assets/maps/nkh-practical.webp"
+        }
+      ]
+    },
+    {
+      "id": "division",
+      "name": "桃竹苗分署",
+      "count": 2,
+      "meetingHint": "分署指定會議地點",
+      "maps": [
+        {
+          "name": "校園導覽",
+          "src": "assets/maps/division.webp"
+        }
+      ]
+    },
+    {
+      "id": "vanung",
+      "name": "萬能科技大學",
+      "count": 3,
+      "meetingHint": "大會指定會議地點",
+      "maps": [
+        {
+          "name": "校園導覽",
+          "src": "assets/maps/vanung.webp"
+        }
+      ]
+    },
+    {
+      "id": "nangang",
+      "name": "南港高工",
+      "count": 2,
+      "meetingHint": "大會指定會議地點",
+      "maps": [
+        {
+          "name": "校園導覽",
+          "src": "assets/maps/nangang.webp"
+        }
+      ]
+    },
+    {
+      "id": "sanchong",
+      "name": "三重商工",
+      "count": 1,
+      "meetingHint": "大會指定會議地點",
+      "maps": [
+        {
+          "name": "校園導覽",
+          "src": "assets/maps/sanchong.webp"
+        }
+      ]
+    },
+    {
+      "id": "taishan",
+      "name": "泰山高中",
+      "count": 1,
+      "meetingHint": "大會指定會議地點",
+      "maps": [
+        {
+          "name": "校園導覽",
+          "src": "assets/maps/taishan.webp"
+        }
+      ]
+    },
+    {
+      "id": "xinxing",
+      "name": "新興高中",
+      "count": 1,
+      "meetingHint": "大會指定會議地點",
+      "maps": [
+        {
+          "name": "校園導覽",
+          "src": "assets/maps/xinxing.webp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#0b2839" name="theme-color"/><meta content="115工科賽北科附工任意起點至任意終點動畫示意，未經通行路線核定。" name="description"/>
+<title>北科附工避樹動態導覽（試作）｜115 工科賽一站式資訊平台</title>
+<link href="traffic.css" rel="stylesheet"/><script defer="" src="traffic-data.js"></script><script defer="" src="traffic.js"></script>
+<link href="portal-bridge.css" rel="stylesheet"/></head>
+<body><div class="gk-unified"><div><strong>115 工科賽一站式資訊平台</strong><small>第六輪互動功能 · 已整合至新入口</small></div><nav aria-label="返回整合網站"><a class="gk-home" href="../index.html">⌂ 六入口首頁</a><a data-portal-skill="skills" href="../skills.html">查職種</a><a data-portal-skill="individual" href="../individual.html">個別三日行程</a><a href="../agenda.html">大會日程</a><a href="../ceremony.html">典禮詳細流程</a><a href="../transport.html">官方交通指引</a><a href="index.html#explorer">互動地圖</a></nav></div><div class="gk-unified-warning"><b>交通安全：</b>本頁為未核定的避樹動畫，不是官方通行路線；正式車輛停靠、卸貨及步行方向，請查<a href="../transport.html" style="color:#714d12;text-decoration:underline">大會七張交通指引圖</a>與現場公告。</div>
+<header class="topbar"><div class="brand"><span class="brand-icon">115</span><span><strong>工科賽｜北科附工動態引導</strong><small>ANY-TO-ANY WAYFINDING DEMO</small></span></div><a class="top-link" href="index.html#explorer">返回七場域導覽 ↗</a></header>
+<div class="intro-bar"><div class="intro-heading"><span class="kicker">CAMPUS WAYFINDING / INTERACTIVE</span><h1>從任意起點，到任意終點</h1><p>下拉選擇館舍，或在地圖上直接點選起點和終點。網站會避開圖上標記的樹木與花圃，計算繞行動畫示意線條。</p></div><div class="version">北科附工｜v0.3 避樹試作</div></div>
+<div class="safety" role="note"><strong>⚠ 本頁為避開樹木的動畫技術試作，非正式通行指引。</strong> 已依原圖將主要樹木、圓環花圃及苗木果樹區設為避讓區；但尚未完成校內步道、建築入口、施工限制及車輛管制核定。不得把動畫當成正式通行路線。</div>
+<main class="layout">
+<section aria-label="設定起點與終點" class="panel controls">
+<div class="panel-eyebrow">01 / 起終點設定</div><h2>規劃你的移動</h2>
+<div class="field"><label for="startSelect">起點（我現在的位置）</label><select id="startSelect"></select></div>
+<button aria-label="交換起點與終點" class="swap" id="swapPoints" title="交換起點與終點" type="button">⇅ 交換起點與終點</button>
+<div class="field"><label for="endSelect">終點（我要前往的地方）</label><select id="endSelect"></select></div>
+<div class="mode-set"><span class="mode-title">動畫顯示方式</span><div aria-label="動畫線型" class="mode-pills" role="group"><button aria-pressed="true" class="mode-btn selected" data-mode="walk" type="button">↝ 避樹優先</button><button aria-pressed="false" class="mode-btn" data-mode="wide" type="button">↝ 加大避讓</button></div><p class="mode-desc" id="modeExplain">動畫不穿過已標示的樹木／花圃遮罩，其他通道仍需現場確認。</p></div>
+<div class="pick-section"><span class="mode-title">直接在地圖上選點</span><div class="pick-buttons"><button id="pickStart" type="button">① 點圖選起點</button><button id="pickEnd" type="button">② 點圖選終點</button></div><p class="help" id="pickHint">可在圖上指定任意非樹木位置；如果點到植栽區，會提醒改選區外位置。</p></div>
+<div aria-live="polite" class="details"><span class="tag">避樹示意 · 未核定</span><div class="trip-row"><span class="trip-dot start"></span><div><small>起點</small><strong id="fromLabel">成功路校門</strong></div></div><div class="trip-bar"></div><div class="trip-row"><span class="trip-dot end"></span><div><small>終點</small><strong id="toLabel">行政大樓</strong></div></div><p class="trip-meta" id="tripMeta"></p></div>
+<div class="actions"><button class="primary" id="playToggle" type="button">⏸ 暫停動畫</button><button id="copyLink" type="button">⧉ 複製專屬路線</button><button id="clearCustom" type="button">↺ 重設選點</button></div>
+</section>
+<section aria-label="動畫地圖" class="panel map-panel">
+<div class="map-top"><div><h2>互動路線圖</h2><p>從任何館舍或任意點出發，都可設定另一處目的地</p></div><div class="zoom-control"><button aria-label="縮小地圖" id="zoomOut" type="button">−</button><span id="zoomText">100%</span><button aria-label="放大地圖" id="zoomIn" type="button">＋</button><button aria-label="恢復地圖大小" id="zoomFit" type="button">↺</button></div></div>
+<div class="map-toolbar"><span id="pickStatus">目前：下拉選擇模式</span><span class="map-tip">單擊選點 · 樹木區不可選 · 雙擊放大</span></div>
+<div aria-label="可點選的北科附工校園地圖" class="viewport" id="viewport" role="region" tabindex="0"><div class="map-canvas" id="mapCanvas"><img alt="北科附工校園示意地圖：包含校門、行政大樓、第三會議室、各館舍與服務編號" draggable="false" id="campusImage" src="assets/campus.webp"/><svg aria-label="起終點及避樹動畫示意線" id="routeSvg" preserveaspectratio="none" role="img" viewbox="0 0 1000 667"><title>示意路線動畫</title><g id="graphPath"></g><g id="animatedPath"></g><g id="poiMarkers"></g></svg><button aria-label="在地圖上選擇任意位置，需先啟用起點或終點選點模式" class="map-click" id="mapClick" type="button"></button></div></div>
+<div class="map-bottom"><div class="legend"><span><i class="legend-mark start"></i>起點</span><span><i class="legend-mark end"></i>終點</span><span><i class="legend-line"></i>避樹動畫</span><span><i class="legend-block"></i>樹木避讓區</span></div><button class="secondary" id="toggleNodes" type="button">隱藏樹木避讓區</button></div>
+</section>
+<section aria-label="路線說明" class="panel notes"><div class="panel-eyebrow">02 / 避樹路線說明</div><h2>本次路線說明</h2><ol class="step-list" id="instructions"></ol><p class="important" id="routeWarning"></p></section>
+<section aria-label="使用方式" class="panel notes"><div class="panel-eyebrow">03 / 使用提醒</div><h2>兩種避讓模式有什麼不同？</h2><p><b>避樹優先：</b>使用格網最短路徑搜尋，禁止穿越校園圖所標示的主要樹木、花圃與苗木區，再平滑形成動畫線。</p><p><b>加大避讓：</b>將樹木周圍的安全留白放大；若沒有可通行的示意連線，寧可不畫，也不穿過樹木。</p><p>圖上斜線紅色區塊代表依圖面估計的植栽避讓區。這只是圖像遮罩，不代表已取得實際道路、樹冠、圍牆或車輛管制資料。車輛（21／22／23）只完成入口定位；即使出現避樹動畫，也不得據此行駛。</p></section>
+</main>
+<footer>115 工科賽互動導覽 ｜ 樹木避讓動態路線展示 ｜ 未經現場核定，請勿作為正式交通指引</footer>
+</body>
+</html>

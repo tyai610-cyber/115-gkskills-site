@@ -1,0 +1,7 @@
+/* 新版六入口導覽頂列：原第六輪功能保留 */
+.gk-unified{display:flex;align-items:center;justify-content:space-between;gap:13px;flex-wrap:wrap;background:linear-gradient(95deg,#102b3d,#176b73);color:#fff;padding:10px clamp(14px,4vw,60px);font-family:"Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;position:relative;z-index:50;box-shadow:0 6px 16px #0b304018}
+.gk-unified strong{display:block;font-weight:850;font-size:13px}.gk-unified small{display:block;color:#d1e2e5;font-size:10px;margin-top:3px}.gk-unified nav{display:flex;flex-wrap:wrap;gap:6px}
+.gk-unified a{color:#fff;text-decoration:none;border:1px solid #8bc3c7;padding:9px 12px;border-radius:8px;font-size:12px;font-weight:760;white-space:nowrap;background:#ffffff12}.gk-unified a:hover{background:#ffffff35}.gk-unified a.gk-home{background:#e6c17c;border-color:#e6c17c;color:#173247}
+.gk-unified-warning{background:#fff2de;border-bottom:1px solid #efcf8e;color:#74521e;font:700 12px/1.7 "Noto Sans TC",system-ui,sans-serif;padding:9px clamp(14px,4vw,60px)}
+@media(max-width:650px){.gk-unified{padding:11px 13px}.gk-unified nav{display:flex;width:100%;flex-wrap:nowrap;overflow-x:auto;padding-bottom:5px}.gk-unified a{font-size:11px;padding:8px 9px}.gk-unified-warning{padding:9px 13px;font-size:11px}}
+@media print{.gk-unified,.gk-unified-warning{display:none!important}}

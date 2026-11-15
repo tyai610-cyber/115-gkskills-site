@@ -1,0 +1,410 @@
+{
+  "source": "大會手冊彩色版 115.11.12 p.41–42",
+  "days": [
+    "24",
+    "25",
+    "26",
+    "27"
+  ],
+  "events": [
+    {
+      "id": "24-01",
+      "date": "24",
+      "time": "09:30–10:30",
+      "title": "捐贈廠商記者會",
+      "kind": "press",
+      "who": [
+        "press"
+      ],
+      "place": "北科附工樂群堂第三會議室",
+      "detail": "",
+      "source": "p.41",
+      "flag": null,
+      "venues": [
+        "nkh"
+      ]
+    },
+    {
+      "id": "24-02",
+      "date": "24",
+      "time": "11:00–12:00",
+      "title": "各職種審題會議",
+      "kind": "meeting",
+      "who": [
+        "judge"
+      ],
+      "place": "七場域依職種分配",
+      "detail": "命題及評判委員代表分別前往所屬職種場域。",
+      "source": "p.41",
+      "flag": "各職種所屬場域不同",
+      "venues": []
+    },
+    {
+      "id": "24-03",
+      "date": "24",
+      "time": "12:00–13:00",
+      "title": "命題及評判委員報到",
+      "kind": "checkin",
+      "who": [
+        "judge"
+      ],
+      "place": "七場域依職種分配",
+      "detail": "北科附工 19 職種於樂群堂第三會議室；外場依原表分流。",
+      "source": "p.41–42",
+      "flag": null,
+      "venues": []
+    },
+    {
+      "id": "24-04",
+      "date": "24",
+      "time": "13:00–14:00",
+      "title": "命題及評判委員工作會議",
+      "kind": "meeting",
+      "who": [
+        "judge"
+      ],
+      "place": "各場域會議地點",
+      "detail": "各場域視訊與現場安排依大會原表。",
+      "source": "p.41–42",
+      "flag": null,
+      "venues": []
+    },
+    {
+      "id": "24-05",
+      "date": "24",
+      "time": "14:00–14:30",
+      "title": "命題及評判委員成績輸入會議",
+      "kind": "meeting",
+      "who": [
+        "judge"
+      ],
+      "place": "各場域會議地點",
+      "detail": "外場依原表以視訊會議方式與會。",
+      "source": "p.41–42",
+      "flag": null,
+      "venues": []
+    },
+    {
+      "id": "24-06",
+      "date": "24",
+      "time": "14:40–15:00",
+      "title": "各校總領隊報到",
+      "kind": "checkin",
+      "who": [
+        "chief"
+      ],
+      "place": "北科附工樂群堂第三會議室",
+      "detail": "",
+      "source": "p.42",
+      "flag": null,
+      "venues": [
+        "nkh"
+      ]
+    },
+    {
+      "id": "24-07",
+      "date": "24",
+      "time": "15:00–15:30",
+      "title": "各校總領隊會議",
+      "kind": "meeting",
+      "who": [
+        "chief"
+      ],
+      "place": "北科附工樂群堂第三會議室",
+      "detail": "",
+      "source": "p.42",
+      "flag": null,
+      "venues": [
+        "nkh"
+      ]
+    },
+    {
+      "id": "24-08",
+      "date": "24",
+      "time": "13:00–14:00",
+      "title": "指導教師及選手報到",
+      "kind": "checkin",
+      "who": [
+        "student",
+        "teacher"
+      ],
+      "place": "各職種領隊會議之場地",
+      "detail": "例外：車床 11:00–13:00；鑄造 09:00–09:30；模具 12:00–13:00；機電整合 12:00–13:00；機器手臂技術 12:00–14:00。",
+      "source": "p.42",
+      "flag": "部分職種報到時間不同",
+      "venues": []
+    },
+    {
+      "id": "24-09",
+      "date": "24",
+      "time": "15:30–17:00",
+      "title": "各職種領隊會議",
+      "kind": "meeting",
+      "who": [
+        "leader",
+        "teacher"
+      ],
+      "place": "各職種領隊會議場地",
+      "detail": "詳見各職種領隊（及檢討）會議、學科、術科場地一覽表。",
+      "source": "p.42",
+      "flag": null,
+      "venues": []
+    },
+    {
+      "id": "25-10",
+      "date": "25",
+      "time": "07:30–08:00",
+      "title": "選手集合點名",
+      "kind": "checkin",
+      "who": [
+        "student"
+      ],
+      "place": "各職種競賽場地",
+      "detail": "大會統一概覽；個別職種請以專屬日程與現場規定為準。",
+      "source": "p.42",
+      "flag": null,
+      "venues": []
+    },
+    {
+      "id": "25-11",
+      "date": "25",
+      "time": "08:00–12:00",
+      "title": "上午競賽",
+      "kind": "contest",
+      "who": [
+        "student"
+      ],
+      "place": "各職種競賽場地",
+      "detail": "大會概覽時段，不表示每一職種都在 08:00 開考。",
+      "source": "p.42",
+      "flag": null,
+      "venues": []
+    },
+    {
+      "id": "25-12",
+      "date": "25",
+      "time": "12:00–13:00",
+      "title": "午餐休息",
+      "kind": "rest",
+      "who": [
+        "student",
+        "teacher"
+      ],
+      "place": "依各職種規定",
+      "detail": "",
+      "source": "p.42",
+      "flag": null,
+      "venues": []
+    },
+    {
+      "id": "25-13",
+      "date": "25",
+      "time": "13:00–17:00",
+      "title": "下午競賽",
+      "kind": "contest",
+      "who": [
+        "student"
+      ],
+      "place": "各職種競賽場地",
+      "detail": "大會概覽時段，不表示所有職種都在 17:00 結束。",
+      "source": "p.42",
+      "flag": null,
+      "venues": []
+    },
+    {
+      "id": "26-14",
+      "date": "26",
+      "time": "07:30–08:00",
+      "title": "選手集合點名",
+      "kind": "checkin",
+      "who": [
+        "student"
+      ],
+      "place": "各職種競賽場地",
+      "detail": "大會統一概覽；個別職種請以專屬日程與現場規定為準。",
+      "source": "p.42",
+      "flag": null,
+      "venues": []
+    },
+    {
+      "id": "26-15",
+      "date": "26",
+      "time": "08:00–12:00",
+      "title": "上午競賽",
+      "kind": "contest",
+      "who": [
+        "student"
+      ],
+      "place": "各職種競賽場地",
+      "detail": "大會概覽時段，不表示每一職種都在 08:00 開考。",
+      "source": "p.42",
+      "flag": null,
+      "venues": []
+    },
+    {
+      "id": "26-16",
+      "date": "26",
+      "time": "12:00–13:00",
+      "title": "午餐休息",
+      "kind": "rest",
+      "who": [
+        "student",
+        "teacher"
+      ],
+      "place": "依各職種規定",
+      "detail": "",
+      "source": "p.42",
+      "flag": null,
+      "venues": []
+    },
+    {
+      "id": "26-17",
+      "date": "26",
+      "time": "13:00–17:00",
+      "title": "評分、產學人才媒合與器材撤離",
+      "kind": "other",
+      "who": [
+        "student",
+        "teacher"
+      ],
+      "place": "各職種場地及活動安排",
+      "detail": "來源記載評分（參賽師生、產學代表參與產學人才媒合活動）及各職種選手個人工具與器材撤離。",
+      "source": "p.42",
+      "flag": null,
+      "venues": []
+    },
+    {
+      "id": "27-18",
+      "date": "27",
+      "time": "08:00–08:30",
+      "title": "選手及領隊就位",
+      "kind": "checkin",
+      "who": [
+        "student",
+        "leader",
+        "teacher"
+      ],
+      "place": "桃園市立綜合體育館",
+      "detail": "此為大會活動日程的概覽時間；典禮詳細表載明 07:40–08:10 報到入席。",
+      "source": "p.42",
+      "flag": "與典禮詳細流程時間不同",
+      "venues": []
+    },
+    {
+      "id": "27-19",
+      "date": "27",
+      "time": "08:30–12:00",
+      "title": "頒獎典禮",
+      "kind": "ceremony",
+      "who": [
+        "all"
+      ],
+      "place": "桃園市立綜合體育館",
+      "detail": "大會概覽時段；典禮詳細程序於 08:50 開始。",
+      "source": "p.42",
+      "flag": "典禮詳細表顯示 08:50 開始",
+      "venues": []
+    },
+    {
+      "id": "27-20",
+      "date": "27",
+      "time": "12:00–16:00",
+      "title": "賦歸",
+      "kind": "other",
+      "who": [
+        "all"
+      ],
+      "place": "各校",
+      "detail": "",
+      "source": "p.42",
+      "flag": null,
+      "venues": []
+    }
+  ],
+  "venues": {
+    "nkh": {
+      "name": "北科附工",
+      "hint": "樂群堂第三會議室",
+      "count": 19,
+      "skills": [
+        "應用設計",
+        "冷凍空調",
+        "電腦輔助機械製圖",
+        "機械製圖",
+        "電腦軟體設計",
+        "電腦修護",
+        "化驗",
+        "工業電子",
+        "數位電子",
+        "工業配線",
+        "室內配線",
+        "汽車修護",
+        "鉗工",
+        "車床",
+        "建築",
+        "圖文傳播",
+        "測量",
+        "機電整合",
+        "配管"
+      ]
+    },
+    "division": {
+      "name": "桃竹苗分署",
+      "hint": "分署指定會議地點",
+      "count": 2,
+      "skills": [
+        "家具木工",
+        "機器手臂技術"
+      ]
+    },
+    "vanung": {
+      "name": "萬能科技大學",
+      "hint": "大會指定會議地點",
+      "count": 3,
+      "skills": [
+        "建築製圖",
+        "室內空間設計",
+        "機器人"
+      ]
+    },
+    "nangang": {
+      "name": "南港高工",
+      "hint": "大會指定會議地點",
+      "count": 2,
+      "skills": [
+        "鑄造",
+        "模具"
+      ]
+    },
+    "sanchong": {
+      "name": "三重商工",
+      "hint": "大會指定會議地點",
+      "count": 1,
+      "skills": [
+        "板金"
+      ]
+    },
+    "taishan": {
+      "name": "泰山高中",
+      "hint": "大會指定會議地點",
+      "count": 1,
+      "skills": [
+        "汽車噴漆"
+      ]
+    },
+    "xinxing": {
+      "name": "新興高中",
+      "hint": "大會指定會議地點",
+      "count": 1,
+      "skills": [
+        "飛機修護"
+      ]
+    }
+  },
+  "priorityFor1127": {
+    "primarySource": "data/ceremony.json",
+    "primaryPages": "p.122–123",
+    "summarySource": "p.42",
+    "rule": "11/27 主時間軸由程式依 22 項典禮詳細程序生成；原 08:00–08:30、08:30–12:00 僅顯示於差異說明"
+  }
+}

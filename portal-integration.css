@@ -1,0 +1,17 @@
+/* 115 工科賽整合：新增第六輪功能導引，保留原視覺系統 */
+.portal-integration-strip{width:min(1220px,calc(100% - 52px));margin:22px auto;display:flex;gap:14px;align-items:center;justify-content:space-between;padding:16px 20px;border:1px solid #b4d6dd;border-radius:15px;background:linear-gradient(115deg,#eaf5f5,#f7fbfb);box-shadow:0 9px 22px rgba(12,42,61,.045)}
+.portal-integration-strip strong{color:#12354c;font-size:16px;display:block;margin-bottom:4px}.portal-integration-strip p{color:#496b7a;font-size:12px;margin:0;line-height:1.7}.portal-integration-actions{display:flex;flex-wrap:wrap;gap:8px;flex-shrink:0}
+.portal-integration-actions a,.portal-integrated-action{display:inline-flex;align-items:center;gap:7px;text-decoration:none;color:#fff!important;font-size:12px;font-weight:800;background:#0d777b;border:1px solid #0d777b;border-radius:9px;padding:10px 13px;line-height:1.4}
+.portal-integration-actions a.secondary,.portal-integrated-action.secondary{background:#fff;color:#195e69!important;border-color:#98c9c9}
+.portal-integrated-action:hover,.portal-integration-actions a:hover{filter:brightness(.95)}.integration-note{font-size:11px;color:#667c84;margin:8px 0}
+.integration-home-feature{background:linear-gradient(110deg,#15354a,#166c73);border-radius:19px;padding:26px 30px;color:white;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;margin-bottom:34px}
+.integration-home-feature .section-label{color:#c9e8df}.integration-home-feature h2{font-size:25px;margin:6px 0}.integration-home-feature p{color:#d3e4e4;font-size:12px;margin:0;line-height:1.8}.integration-home-feature .portal-integration-actions a{background:#e0bd79;color:#152e3a!important;border-color:#e0bd79}.integration-home-feature .portal-integration-actions a.secondary{background:transparent;color:white!important;border-color:#8bb8bd}
+@media(max-width:950px){.portal-integration-strip{display:block}.portal-integration-actions{margin-top:12px}.integration-home-feature{grid-template-columns:1fr}}
+@media(max-width:620px){.portal-integration-strip{width:calc(100% - 30px);margin:15px auto;padding:15px}.integration-home-feature{padding:20px;margin-bottom:22px}.integration-home-feature h2{font-size:21px}.portal-integration-actions a{flex:1;justify-content:center}}
+@media print{.portal-integration-strip,.integration-home-feature{display:none!important}}
+
+.compact-primary-nav{display:none;gap:5px;padding:9px 14px;background:#1d4355;overflow-x:auto;scrollbar-width:thin}.compact-primary-nav a{color:#e9f4f3;white-space:nowrap;text-decoration:none;font-weight:750;font-size:12px;padding:7px 10px;border:1px solid #4a7785;border-radius:7px}@media(max-width:850px){.compact-primary-nav{display:flex}}
+
+/* 進階頁統一主要導覽；滑動條具明確中文項目，不取代原版工具列 */
+.compact-primary-nav-always{display:flex;justify-content:center}
+@media(max-width:850px){.compact-primary-nav-always{justify-content:flex-start}}

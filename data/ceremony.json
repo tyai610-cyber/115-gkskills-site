@@ -1,0 +1,162 @@
+{
+  "date": "115/11/27",
+  "venue": "桃園市立綜合體育館",
+  "address": "桃園市桃園區三民路一段 1 號",
+  "source": "大會手冊彩色版 p.122–123",
+  "events": [
+    {
+      "id": "c01",
+      "time": "07:40–08:10",
+      "title": "全體選手暨師長報到入席",
+      "kind": "registration",
+      "source": "p.122"
+    },
+    {
+      "id": "c02",
+      "time": "08:10–08:20",
+      "title": "頒獎典禮預演",
+      "kind": "ceremony",
+      "source": "p.122"
+    },
+    {
+      "id": "c03",
+      "time": "08:20–08:40",
+      "title": "長官暨貴賓入席－典禮流程說明",
+      "kind": "ceremony",
+      "source": "p.122"
+    },
+    {
+      "id": "c04",
+      "time": "08:40–08:50",
+      "title": "迎賓表演－匠心樂章",
+      "kind": "performance",
+      "source": "p.122"
+    },
+    {
+      "id": "c05",
+      "time": "08:50",
+      "title": "典禮開始",
+      "kind": "milestone",
+      "source": "p.122"
+    },
+    {
+      "id": "c06",
+      "time": "08:50–08:55",
+      "title": "致歡迎詞",
+      "kind": "ceremony",
+      "source": "p.122"
+    },
+    {
+      "id": "c07",
+      "time": "08:55–09:00",
+      "title": "介紹長官及貴賓",
+      "kind": "ceremony",
+      "source": "p.122"
+    },
+    {
+      "id": "c08",
+      "time": "09:00–09:10",
+      "title": "長官及貴賓致詞",
+      "kind": "ceremony",
+      "source": "p.122"
+    },
+    {
+      "id": "c09",
+      "time": "09:10–09:20",
+      "title": "桃園市長致詞",
+      "kind": "ceremony",
+      "source": "p.122"
+    },
+    {
+      "id": "c10",
+      "time": "09:20–09:30",
+      "title": "致贈協辦及贊助單位感謝狀",
+      "kind": "awarding",
+      "source": "p.122"
+    },
+    {
+      "id": "c11",
+      "time": "09:30–09:35",
+      "title": "命題暨評判工作委員會總召集人講評",
+      "kind": "ceremony",
+      "source": "p.122"
+    },
+    {
+      "id": "c12",
+      "time": "09:35–09:45",
+      "title": "技藝超群拼佳績 祥獅獻瑞來報喜",
+      "kind": "performance",
+      "source": "p.122"
+    },
+    {
+      "id": "c13",
+      "time": "09:45–10:15",
+      "title": "第一階段頒獎",
+      "kind": "awarding",
+      "source": "p.122"
+    },
+    {
+      "id": "c14",
+      "time": "10:15–10:25",
+      "title": "跆拳武藝",
+      "kind": "performance",
+      "source": "p.122"
+    },
+    {
+      "id": "c15",
+      "time": "10:25–10:55",
+      "title": "第二階段頒獎",
+      "kind": "awarding",
+      "source": "p.123"
+    },
+    {
+      "id": "c16",
+      "time": "10:55–11:05",
+      "title": "鼓陣",
+      "kind": "performance",
+      "source": "p.123"
+    },
+    {
+      "id": "c17",
+      "time": "11:05–11:35",
+      "title": "第三階段頒獎",
+      "kind": "awarding",
+      "source": "p.123"
+    },
+    {
+      "id": "c18",
+      "time": "11:35–11:40",
+      "title": "抽獎活動",
+      "kind": "ceremony",
+      "source": "p.123"
+    },
+    {
+      "id": "c19",
+      "time": "11:40–11:45",
+      "title": "頒發【點將家金手獎】獎學金",
+      "kind": "awarding",
+      "source": "p.123"
+    },
+    {
+      "id": "c20",
+      "time": "11:45–11:50",
+      "title": "金手獎第一名選手暨指導教師合影",
+      "kind": "awarding",
+      "source": "p.123"
+    },
+    {
+      "id": "c21",
+      "time": "11:50–12:00",
+      "title": "會旗交接、116 學年度承辦學校校長致詞",
+      "kind": "final",
+      "source": "p.123"
+    },
+    {
+      "id": "c22",
+      "time": "12:00",
+      "title": "禮成",
+      "kind": "milestone",
+      "source": "p.123"
+    }
+  ]
+}

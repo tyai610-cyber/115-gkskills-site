@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#0c2035" name="theme-color"/>
+<meta content="115學年度工科賽七場域互動導覽、29職種搜尋與試場位置查詢。依提供Excel與導覽圖製作，正式公告請以主辦單位為準。" name="description"/>
+<title>進階互動導覽｜115 工科賽一站式資訊平台</title>
+<link href="styles.css" rel="stylesheet"/><link href="student-dashboard.css" rel="stylesheet"/>
+<script defer="" src="data.js"></script>
+<script defer="" src="focus-meta.js"></script>
+<script defer="" src="program-diagrams.js"></script>
+
+<script defer="" defer_="" src="timeline-data.js"></script><script defer="" src="app.js"></script><script defer="" defer_="" src="student-dashboard.js"></script>
+<link href="portal-bridge.css" rel="stylesheet"/><script defer="True" src="portal-bridge.js"></script></head>
+<body><div class="gk-unified"><div><strong>115 工科賽一站式資訊平台</strong><small>第六輪互動功能 · 已整合至新入口</small></div><nav aria-label="返回整合網站"><a class="gk-home" href="../index.html">⌂ 六入口首頁</a><a data-portal-skill="skills" href="../skills.html">查職種</a><a data-portal-skill="individual" href="../individual.html">個別三日行程</a><a href="../agenda.html">大會日程</a><a href="../ceremony.html">典禮詳細流程</a><a href="../transport.html">官方交通指引</a><a href="index.html#explorer">互動地圖</a></nav></div>
+<a class="skip" href="#explorer">跳至互動地圖</a>
+<div class="notice-top">115.11.12｜考生三日行程已加入；未核定時間、教室座標與停車動線仍保留待確認，正式請依大會公告</div>
+<header class="site-header">
+<div class="shell header-inner">
+<a class="brand" href="#home"><span class="brand-emblem">115</span><span class="brand-text"><strong>工科賽一站式資訊平台</strong><small>INDUSTRIAL SKILLS COMPETITION</small></span></a>
+<nav aria-label="主要導覽" class="header-links"><a href="#explorer">互動導覽</a><a href="traffic.html" title="任意兩點避樹動畫，尚非正式通行指引">避樹動態交通（試作）</a><a href="#studentTimeline">考生行程</a><a href="#instructions">使用說明</a><a href="#data-notes">資料檢核</a></nav>
+<span class="header-chip"><span class="dot"></span>LOCAL / GITHUB READY</span>
+</div>
+</header>
+<section class="hero" id="home">
+<div class="shell hero-inner">
+<div class="hero-copy">
+<p class="eyebrow">115 學年度 · 學生工業類技藝競賽</p>
+<h1>查詢職種，<em>快速找到場地。</em></h1>
+<p class="hero-desc">整合 7 場域、29 職種互動導覽與 11/24–26 三日競賽時間軸；查詢首日報到、每日點名、學科術科、教室樓層與考前提醒。</p>
+<a class="hero-cta" href="#explorer">開始查詢 <span aria-hidden="true">↗</span></a>
+<a aria-label="開啟北科附工任意兩點避樹動態交通試作，尚非正式通行指引" class="hero-traffic-link" href="traffic.html">↝ 北科附工避樹交通動畫（試作）</a>
+</div>
+<div aria-label="資料數量" class="hero-stats"><div><strong>07</strong><span>競賽場域</span></div><div><strong>29</strong><span>職種資料</span></div><div><strong>10</strong><span>原始導覽圖</span></div></div>
+<span aria-hidden="true" class="hero-decoration">MAP / 115</span>
+</div>
+</section>
+<main class="shell">
+<section aria-labelledby="explorer-title" class="explorer-section" id="explorer">
+<div class="section-heading"><div><p class="overline">EXPLORE THE VENUES</p><h2 id="explorer-title">互動式場域導覽</h2><p class="section-subtitle">先選場域，也可以直接選擇 01–29 職種。圖上已標點的職種可點選查看細節；重點圖為視圖裁切，位置不代表實測入口。</p></div><span class="light-pill">預設重點地圖 · 可切換完整圖 · 估位待核對</span><p class="publish-version">資料基準：115/11/12（場地、首日報到）｜競賽日程：本次提供的競賽時間及配分比率表｜試作版・尚待正式核定</p></div>
+<div aria-label="選擇競賽場域" class="site-tabs" id="siteTabs" role="group"></div>
+<div class="workspace">
+<aside aria-labelledby="sidebar-title" class="sidebar">
+<div class="side-head"><div><span class="small-label">DISCIPLINE FINDER</span><h3 id="sidebar-title">職種快速查詢</h3></div><span class="small-count" id="siteProgramCount">—</span></div>
+<label class="field"><span>跨場域快速跳轉</span><select id="globalProgram"><option value="">選擇 01–29 職種</option></select></label>
+<label class="field"><span>目前場域內搜尋</span><div class="search-wrapper"><svg aria-hidden="true" viewbox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.3"></circle><path d="m16 16 4.8 4.8"></path></svg><input autocomplete="off" id="programSearch" placeholder="搜尋編號、名稱、教室..." type="search"/></div></label>
+<div class="list-heading"><span>場域職種列表</span><button class="text-button" id="clearSearch" type="button">清除搜尋</button></div>
+<div class="program-list" id="programList" role="list"></div>
+<p class="sidebar-note">資料來源：01 畫圖用115.11.12.xlsx（含「報到」工作表）。負責人姓名未公開。</p>
+</aside>
+<div class="main-panel">
+<div class="map-head"><div><p class="small-label">CAMPUS MAP / 場域圖</p><h3 id="mapTitle">讀取地圖中…</h3><p class="map-subtitle" id="mapSubtitle"></p></div><a class="original-link" href="#" id="originalLink" rel="noopener" target="_blank">開啟原始高解析圖 <span aria-hidden="true">↗</span></a><a class="original-link" download="" href="#" id="downloadOriginal">下載原始圖檔 <span aria-hidden="true">↓</span></a></div>
+<div class="map-toolbar">
+<label class="map-picker"><span>地圖種類</span><select aria-label="地圖種類" id="mapSelect"></select></label>
+<div class="map-tool-right"><div aria-label="地圖顯示模式" class="mode-switch" role="group"><button aria-pressed="true" class="mode-button" id="focusMode" type="button">重點地圖</button><button aria-pressed="false" class="mode-button" id="fullMode" type="button">完整圖面</button></div>
+<button aria-label="縮小地圖" class="tool-btn" id="zoomOut" type="button">−</button>
+<span aria-live="polite" class="zoom-label" id="zoomLabel">100%</span>
+<button aria-label="放大地圖" class="tool-btn" id="zoomIn" type="button">＋</button>
+<button class="tool-btn tool-text" id="zoomReset" type="button">重設</button>
+</div>
+</div>
+<div aria-live="polite" class="map-hint" id="mapStatus">點選地圖中的編號，可查看職種與場地資訊。</div>
+<details class="map-shortcuts" hidden="" id="mapShortcutBox"><summary id="mapShortcutHeading">圖面職種查詢索引</summary><div class="shortcut-explain" id="mapShortcutExplain"></div><div class="shortcut-list" id="mapShortcutList"></div></details>
+<div aria-label="可捲動及縮放的校園導覽圖" class="map-viewport" id="mapViewport" tabindex="0">
+<div class="map-stage" id="mapStage">
+<img alt="校園導覽圖載入中" decoding="async" id="mapImage" loading="eager"/><div class="map-loading" hidden="" id="mapLoading">地圖載入中…</div>
+<div class="pin-layer" id="pinLayer"></div>
+</div>
+</div>
+<div class="map-footer"><span><i class="legend-pip legend-other"></i>職種定位點</span><span><i class="legend-pip legend-current"></i>目前選取</span><span><i class="legend-pip legend-pending"></i>待現場核對</span><span id="pinCount">—</span></div>
+<div aria-label="密集定位群組清單" aria-modal="false" class="cluster-chooser" hidden="" id="clusterChooser" role="dialog"><div class="cluster-head"><strong id="clusterTitle">選擇定位點</strong><button aria-label="關閉定位群組" id="clusterClose" type="button">✕</button></div><div class="cluster-items" id="clusterItems"></div><p>群組只合併畫面上的點選按鈕，不會改動原始座標或核定狀態。</p></div>
+<section aria-labelledby="services-title" class="service-section" hidden="" id="serviceSection">
+<div class="service-head"><div><span class="small-label">SERVICE POINTS / 大會服務對照</span><h3 id="services-title">北科附工 01–28 服務項目</h3></div><span class="small-count">28 項服務</span></div>
+<p class="service-intro">此區為大會服務項目，與 29 個競賽職種分開。點選地圖上的紅色編號或下方服務清單，可查閱位置說明。</p>
+<label class="field"><span>搜尋服務項目或位置</span><input autocomplete="off" id="serviceSearch" placeholder="例如：第三會議室、醫療、停車場" type="search"/></label>
+<div class="service-list" id="serviceList"></div>
+<div aria-live="polite" class="service-detail" id="serviceDetail"></div>
+<button class="locate-btn" id="serviceLocateBtn" type="button">⌖ 在地圖上查看此服務點</button>
+<p class="service-warning">服務 18、19、25、26 仍有日期、路線或實際場地尚待公告，已暫停展示來源中的 XX 與候選地點。21 為後門裝卸區域，22 為校門入口，23 的校門指引不代表停車位置。</p>
+</section>
+<section aria-labelledby="detail-title" class="details" id="disciplineDetails">
+<div class="details-top"><div><span class="small-label">DISCIPLINE DETAIL / 職種資訊</span><div class="details-name"><span class="detail-number" id="detailNumber">01</span><h3 id="detail-title">選擇職種</h3></div></div><button class="locate-btn" id="locateBtn" type="button">⌖ 在地圖上定位</button></div>
+<div class="detail-site" id="detailSite"></div>
+<section aria-label="本職種報到時間" class="registration-banner" id="registrationBanner">
+<div class="registration-banner-copy"><span class="registration-label">CHECK-IN · 11 月 24 日報到</span><strong id="detailRegistrationDate">—</strong><p>此為 11/24 首日報到時段，非 11/25–26 各科考試前點名時間。</p></div>
+<div class="registration-banner-time"><span>報到時間</span><strong id="detailRegistrationTime">—</strong><small id="registrationTag"></small></div>
+</section>
+<div aria-live="polite" class="verify-banner" id="detailVerification" role="status"></div>
+<div class="info-grid">
+<div class="info-item"><h4>報到地點</h4><p id="detailRegistration">—</p></div>
+<div class="info-item"><h4>學科測驗</h4><p id="detailTheory">—</p></div>
+<div class="info-item"><h4>術科競賽</h4><p id="detailPractical">—</p></div>
+<div class="info-item"><h4>領隊會議／賽後檢討</h4><p id="detailMeeting">—</p></div>
+</div>
+<div class="registration-tasks" hidden="" id="registrationTasksBox"><strong>報到辦理事項（來源表列）</strong><ul id="registrationTasksList"></ul></div>
+<div class="detail-notes" hidden="" id="detailNotes"></div><section aria-label="考生快速導覽與三日行程" class="student-guide">
+<div class="student-guide-head"><div><span class="small-label">STUDENT HUB / 考生一站式資訊</span><h4>我的競賽三日行程與快速定位</h4></div><span class="data-version">資料版次 115/11/12</span></div>
+<div aria-label="前往對應場域地圖" class="quick-route">
+<button class="quick-route-button" data-route="registration" type="button"><span>01 / 報到</span><strong>報到位置</strong><small id="quickRegistration">—</small></button>
+<button class="quick-route-button" data-route="theory" type="button"><span>02 / 學科</span><strong>筆試位置</strong><small id="quickTheory">—</small></button>
+<button class="quick-route-button" data-route="practical" type="button"><span>03 / 術科</span><strong>實作位置</strong><small id="quickPractical">—</small></button>
+</div>
+<p class="quick-route-hint" id="routeHint">點選後將切換至對應的場域導覽圖；尚未核定的教室及出入口不會自行建立精確座標。</p>
+<div class="timebar-head" id="studentTimeline"><div><span class="small-label">11/24 — 11/26</span><h4>三日競賽時間軸</h4></div><label class="audience-toggle"><input id="includeStaffEvents" type="checkbox"/> 顯示其他會議／工作事件</label></div>
+<div aria-label="切換競賽日期" class="day-tabs" id="studentDayTabs" role="group"></div>
+<div aria-live="polite" class="day-summary" id="daySummary"></div>
+<div class="attendance-notice" hidden="" id="attendanceNotice"></div>
+<div aria-live="polite" class="student-events" id="studentEvents"></div>
+<div class="schedule-cautions" hidden="" id="scheduleCautions"></div>
+<p class="schedule-source">來源：11/12 Excel「報到」與各職種《競賽時間及配分比率表》。僅有時長、沒有開始時間者標示「待公告」，不自行推算；各活動請以大會正式公告為準。</p>
+</section><section aria-label="北科附工行政大樓學科樓層導覽" class="floor-guide" hidden="" id="floorGuide">
+<div class="student-guide-head"><div><span class="small-label">CLASSROOM GUIDE / 學科教室</span><h4>行政大樓互動樓層與教室定位</h4></div><span class="data-version">依原始樓層圖標示・位置待現場覆核</span></div>
+<div aria-label="行政大樓樓層選擇" class="floor-tabs" id="floorTabs" role="group"></div>
+<div class="floor-blueprint">
+<div class="floor-blueprint-head"><strong>行政大樓學科教室原始圖面</strong><span aria-live="polite" id="floorFocusText">選擇職種可在圖上反白教室</span></div>
+<p class="floor-source-note">依 115/11/12 北科附工「學科試場位置暨配置圖」下半部建立點選區。可左右滑動放大閱讀；圖中格位依來源原圖對應，並非實測的門口、行進路線或樓梯入口。</p>
+<div aria-label="可左右捲動的行政大樓樓層圖" class="floor-image-scroller" tabindex="0">
+<div class="floor-image-stage">
+<img alt="北科附工行政大樓學科教室配置圖原圖，含1F、2F、3F與九職種十五間教室" decoding="async" id="floorSourceImage" loading="lazy" src="assets/floor/administration-floor-source.webp"/>
+<div aria-label="可點選的學科教室位置" class="floor-hit-layer" id="floorHitLayer"></div>
+</div>
+</div>
+<p class="floor-legend">框線代表本樓層可對應的學科教室；實線強調目前選取職種。點選框線可切換對應職種。</p>
+</div>
+<div class="floor-rooms" id="floorRooms"></div>
+<p class="floor-hint">圖面框線對應原始樓層配置圖中的教室格位；非現場實測的教室門口或入場動線。請依正式公告及現場指示辨識。</p>
+<button class="feature-outline" id="floorMapButton" type="button">查看北科附工學科導覽圖</button>
+</section><section aria-label="考前注意事項" class="exam-tips" id="examTips">
+<div class="student-guide-head"><div><span class="small-label">BEFORE COMPETITION / 考前準備</span><h4>報到與考試前提醒</h4></div></div>
+<ul class="tips-list" id="generalTips"></ul>
+<div class="program-tips" hidden="" id="programTips"></div>
+<p class="tip-source">提醒僅用於行程確認，未列出的證件、器材及進場規定並不代表免帶或可帶，務必以職種正式規定為準。</p>
+</section><section aria-label="資料版本與異動公告" class="version-update" id="updateLog">
+<details><summary><strong>資料版本、修改紀錄與待核定事項</strong><span>查看更新內容</span></summary>
+<div class="version-details"><p><b>場地與首日報到：</b>115/11/12 Excel；7 場域及原圖依 11/12 版。</p>
+<p><b>競賽時間：</b>依 17 頁《競賽時間及配分比率表》及同內容的程式重繪日程整理；有些職種時間、適用對象需要最終核對。</p>
+<p><b>第六輪新增：</b>依原始學科配置圖建立行政大樓 15 間教室的圖面點選及樓層高亮；將 4 份歷史職種配置圖列入內部待核對，不直接對外發布。</p>
+<p><b>繼續保留：</b>21–23 車輛動線及停車區、11 處待核對定位、服務18/19/25/26待公告、部分職種名稱與獨立崗位配置圖待核定。</p>
+<p><b>公開注意：</b>此處尚未連線官方公告來源，網站更新需重新部署；請勿僅憑本試作版作為唯一報到依據。</p></div></details>
+</section>
+<section aria-labelledby="programExtraTitle" class="program-extra" id="programExtra">
+<div class="program-extra-head"><span class="small-label">PERSONAL GUIDE / 職種專屬導覽</span><h4 id="programExtraTitle">此職種的圖面與分享</h4></div>
+<div class="program-asset-grid">
+<div class="asset-tile">
+<span aria-hidden="true" class="asset-icon">⌖</span>
+<strong>場域術科導覽圖</strong>
+<p id="venueGuideSummary">依所屬場域圖面標點顯示，尚非入口實測位置。</p>
+<button class="feature-btn" id="venueGuideBtn" type="button">在地圖中顯示位置</button>
+<a class="feature-link" href="#" id="venueGuideOriginal" rel="noopener" target="_blank">查看場域原始導覽圖 ↗</a>
+</div>
+<div class="asset-tile">
+<span aria-hidden="true" class="asset-icon">▣</span>
+<strong>職種獨立崗位配置圖</strong>
+<p id="indoorDiagramStatus">目前尚未提供此職種已核定的獨立室內崗位圖。</p>
+<div class="indoor-diagram-list" hidden="" id="indoorDiagramList"></div>
+<span class="asset-wait" id="indoorDiagramPending">待補上來源圖檔後開放</span>
+</div>
+</div>
+<div class="share-panel" id="sharePanel">
+<div class="share-main">
+<span class="small-label">SHARE / 專屬分享</span>
+<h4>直接開啟此職種</h4>
+<p>專屬網址會自動選擇職種和場域；正式部署 GitHub Pages 後，可複製網址分享給其他使用者。</p>
+<div aria-live="polite" class="share-url" id="shareUrlText">讀取分享網址中…</div>
+<div class="share-actions">
+<button class="feature-btn" id="copyProgramLink" type="button">複製職種網址</button>
+<button class="feature-outline" id="copyProgramSummary" type="button">複製職種資訊</button>
+
+</div>
+<p class="share-help" id="shareHelp">尚未公開部署：本機試用時不產生可供他人掃描的網址。</p>
+</div>
+
+</div>
+</section>
+</section>
+<details class="extra-notes"><summary>圖面文字補充、動線與建築參考</summary><ul id="mapNotes"></ul><p>此區文字依上傳 PNG 圖面的可辨識標示整理；它不會覆蓋 Excel 原欄位。</p></details>
+</div>
+</div>
+</section>
+<section class="bottom-sections" id="instructions">
+<div><p class="overline">HOW TO USE</p><h2>三步驟快速使用</h2><div class="steps"><div><b>01</b><strong>選擇場域</strong><p>上方切換七個場域，北科附工另有四類地圖；可選重點地圖或完整圖。</p></div><div><b>02</b><strong>選擇職種</strong><p>可用職種選單、密集定位群組，或報到／學科圖的教室索引找資料。</p></div><div><b>03</b><strong>查看試場資訊</strong><p>閱讀報到、學科、術科及會議位置；必要時另開高解析原圖，並可複製職種專屬網址。</p></div></div></div>
+</section>
+<section class="data-notes" id="data-notes"><div><p class="overline">SOURCE / 資料來源</p><h2>資料檢核與發布提醒</h2><p>本資料更新版使用「01 畫圖用115.11.12.xlsx」的 29 職種與報到資料、「導覽圖115.11.12.rar」中的 10 張原始 PNG 圖，並依北科附工服務圖整理 28 項大會服務對照。當中地圖標點為原圖位置對應，不代表現場經緯度或入口實測位置。</p><p><strong>115.11.12 資料更新：</strong>07、08、09、10、11、13、14、22、23 等 9 職種的學科位置為「行政大樓」；全 29 職種的 11/24 報到時間已加入；南港高工導覽圖更新為 04-2 版。原有待核對定位與服務待公告狀態仍保留。</p><p><strong>尚待確認：</strong>第 29 職種依 Excel 顯示為「機器手臂技術」，另可搜尋不同寫法；其他場域 11 處職種定位仍待現場核對；服務 18、19、25、26 待正式公告；獨立崗位配置圖尚未包含在本次來源（可依第四輪匯入工具逐一補上）；公開前請確認個資及發布權限。</p><p>115.11.12 第六輪更新：行政大樓教室索引已結合原始學科樓層配置圖建立 15 間可點選教室；試場獨立圖採核定後再公開的流程；職種專屬網址於正式 HTTPS 部署後可供分享。只有時長的活動不會自動假設開始時間。</p><p><strong>115.11.13 交通模組更新：</strong>交通頁已改為任意兩點動態避樹示意，提供 38 個位置或直接地圖選點、樹木遮罩避讓及加大避讓模式。路網尚未經現場通行、入口及施工管制確認，請勿作為正式指引。</p></div></section>
+</main>
+<footer class="footer"><div class="shell"><strong>115 工科賽 · 互動式導覽系統</strong><span>資料試作／非正式公告 · 建議搭配 GitHub Pages 使用</span></div></footer>
+<aside aria-label="目前選取的導覽資訊" aria-live="polite" class="mobile-card" hidden="" id="mobileCard"><button aria-label="關閉浮動資訊卡" class="mobile-card-close" id="mobileCardClose" type="button">✕</button><div class="mobile-card-inner"><span class="mobile-card-label" id="mobileCardLabel">職種資訊</span><strong id="mobileCardTitle"></strong><p id="mobileCardText"></p><div class="mobile-card-actions"><button id="mobileCardLocate" type="button">在圖上定位</button><button id="mobileCardDetails" type="button">查看完整資訊</button></div></div></aside>
+<div aria-live="polite" class="toast" id="toast"></div>
+</body>
+</html>
